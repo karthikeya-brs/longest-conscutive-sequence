@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Longest Consecutive Sequence</title>
+    <link rel="icon" href="assets/img/brs-logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+  </head>
+  <body>
+    
+    <header>
+      <div class="d-flex bg-gradient">
+        <div class="d-flex flex-grow-1">
+        
+          <div class="flex-grow-1">
+            <div class="ReactTitle ">
+              <h3>Longest Consecutive Sequence</h3>
+            </div>
+            <div class="d-flex ps-3 align-items-center">
+              <div class="flex-grow-1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" class="container" style="margin-bottom: 100px">
+      <h4 class="text-start">
+        Longest Consecutive Sequence </h4>
+      <p class="text-start">
+        In this approach, we use the JS Set that finds the longest consecutive subsequence. We take the array as the input and check if the array is empty, if it is not empty then we create the set of all elements in the input array. Then we iterate through the input array.</p>
+    
+        <p class="text-start">To check for consecutive numbers like 100, 101, 102, etc., use the concept of reduce(). TRUE would be returned for consecutive numbers, else false is the return value.The word “consecutive” simply means “following each other in a sequence, one after another.” So, what is the meaning of consecutive numbers in math? The consecutive numbers are the numbers that follow each other without any interruption. Consecutive numbers example: 1, 2, 3, 4, 5.</p>
+       
+        <h5>Longest Consecutive Sequence</h5>
+        
+        <h3>Longest Consecutive Sequence Calculator</h3>
+        <label for="inputArray">Enter numbers (comma-separated):</label>
+        <input type="text" id="inputArray"  placeholder="e.g., 100,4,200,1,3,2">
+        <button id="calculateButton">Calculate Longest Consecutive Sequence</button>
+        <div id="result"></div>
+    
+    
+        </main>
+
+    <footer class="footer footer-dark">
+      <div class="d-flex justify-content-center px-5">
+        <div>
+          <button
+            onclick="setTheme('#1A4B84')"
+            class="theme-switch theme-switch-chathams_blue"
+          ></button>
+          <button
+            onclick="setTheme('#991E14')"
+            class="theme-switch theme-switch-tamarillo"
+          ></button>
+          <button
+            onclick="setTheme('#FEAD06')"
+            class="theme-switch theme-switch-yellow_sea"
+          ></button>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/JS/longest consectivesq.js"></script>
+    <script src=""></script>
+    <script src="assets/JS/theme.js" defer></script>
+  </body>
+</html>
